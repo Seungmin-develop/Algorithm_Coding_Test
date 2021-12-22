@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10000)
 input = sys.stdin.readline
 dp = [0]*1000001
 dp[1] = 1
